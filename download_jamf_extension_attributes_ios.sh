@@ -37,13 +37,13 @@ fi
 # The Jamf Pro URL
 
 # Set the Jamf Pro URL here if you want it hardcoded.
-jamfpro_url="https://clyde.calvin.edu:8443"	    
+jamfpro_url=""	    
 
 # Set the username here if you want it hardcoded.
-jamfpro_user="apiuser"
+jamfpro_user=""
 
 # Set the password here if you want it hardcoded.
-jamfpro_password="booimaghost"	
+jamfpro_password=""	
 
 # If you do not want to hardcode API information into the script, you can also store
 # these values in a ~/Library/Preferences/com.github.jamfpro-info.plist file.
