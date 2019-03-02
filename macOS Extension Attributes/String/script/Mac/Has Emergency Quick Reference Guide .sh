@@ -12,8 +12,8 @@
 #echo "</xsl:stylesheet>" >> $stylesheet
 
 #comname=`scutil --get ComputerName`
-#url="https://clyde.calvin.edu:8443/JSSResource/computers/name/$comname"
-#username=$(curl -ks -H "Accept: application/xml" -u apiuser:booimaghost "$url" | xsltproc "$stylesheet" -)
+#url="https://jssurl/JSSResource/computers/name/$comname"
+#username=$(curl -ks -H "Accept: application/xml" -u username:password "$url" | xsltproc "$stylesheet" -)
 #rm -f "$stylesheet"
 
 file="/System/Library/User Template/English.lproj/Documents/Calvin College Emergency Quick Reference Guide.pdf"
